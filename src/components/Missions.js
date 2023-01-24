@@ -1,9 +1,10 @@
 import React from 'react';
+import Title from './Title';
 
 function Missions() {
   return (
     <div data-testid="missions">
-      {/* conteudo adicional aqui */}
+      <Title headline="Missões" />
     </div>
   );
 }
